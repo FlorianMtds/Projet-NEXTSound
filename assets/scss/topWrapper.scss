@@ -1,0 +1,87 @@
+.top_wrapper {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+    margin-right: 28px;
+}
+
+.search_Zone {
+    margin-left: 28px;
+    margin-top: 37px;
+    display: flex;
+    width: 602px;
+    padding: 16px;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    background: $bg_variant;
+    border-radius: 12px;
+}
+
+.icon_search {
+    background-image: url("/assets/Icons/search.png");
+    width: 24px;
+    height: 24px;
+}
+
+.search_placeholder {
+    width: 381px;
+    height: 19px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: $bg_variant;
+    color: $SecondaryFont-color;
+    outline: none;
+}
+
+.CTA {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.btn_download {
+    margin-top: 37px;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 12px;
+    width: 202px;
+    height: 56px;
+    background-color: $Primary-color;
+    border-radius: 12px;
+}
+
+.icon_download {
+    background-image: url("/assets/Icons/download.png");
+    width: 24px;
+    height: 24px;
+}
+
+.btn_d {
+    border-style: none;
+    background-color: $Primary-color;
+    font-size: $font_size_regular;
+    font-weight: $SemiBold_font_weight;
+}
+
+.profil {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+    width: 56px;
+    height: 56px;
+    border: 2px solid $Primary-color;
+    border-radius: 50%;
+}
+
+.profil_pic {
+    position: absolute;
+    left: 2px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-image: url("/assets/PFP/profilpic2.png");
+}

@@ -1,0 +1,127 @@
+// PLAYLIST IN PROGRESS
+
+.playlist_in_progress {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 28px;
+}
+
+.action {
+    width: 1099px;
+    height: 48px;
+}
+
+
+.pip_separator {
+    width: 812px;
+    height: 1px;
+    background-color: $SecondaryFont-color;
+}
+
+.active_separator {
+    display: flex;
+    width: 65px;
+    height: 4px;
+    background-color: $Primary-color;
+    align-content: center;
+    position: absolute; /* pour rendre les pourcentages relatifs à l'action */
+    left: 50%;
+}
+
+.action_items {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: $SecondaryFont-color;
+    align-items: end;
+    margin-top: 24px;
+    font-family: $Mainfont_family;
+    font-size: $font_size_small;
+    font-weight: $Regular_font_weight;
+}
+
+.favoris {
+    color: white;
+    align-items: end;
+    font-family: $Mainfont_family;
+    font-size: $font_size_small;
+    font-weight: $Regular_font_weight;
+}
+
+.songs {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 28px;
+}
+
+.song {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.nbr {
+    color: $SecondaryFont-color;
+    font-family: $Mainfont_family;
+    font-size: $font_size_regular;
+    font-weight: $Regular_font_weight;
+}
+
+span.nbr {
+    width: 10px;
+}
+
+.albumImage {
+    width: 40px;
+    height: 40px;
+    background-image: url("/assets/Icons/albumimg/linkingpark.png");
+    border-radius: 8px;
+}
+
+.songTitle {
+    color: white;
+    font-family: $Mainfont_family;
+    font-size: $font_size_regular;
+    font-weight: $Regular_font_weight;
+    width: 265px;
+}
+
+.author {
+    color: $SecondaryFont-color;
+    font-family: $Mainfont_family;
+    font-size: $font_size_regular;
+    font-weight: $Regular_font_weight;
+    width: 175px;
+}
+
+.time {
+    color: $SecondaryFont-color;
+    font-family: $Mainfont_family;
+    font-size: $font_size_regular;
+    font-weight: $Regular_font_weight;
+    width: 157px;
+    text-align: center;
+}
+
+.playIcon {
+    width: 34px;
+    height: 34px;
+    align-items: center;
+    background-image: url(/assets/Icons/actionitemsicons/play-circle.png);
+}
+.hearthIcon {
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    background-image: url(/assets/Icons/actionitemsicons/heart-rounded.png);
+}
+.dotsIcon {
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    background-image: url(/assets/Icons/actionitemsicons/dots-vertical.png);
+}

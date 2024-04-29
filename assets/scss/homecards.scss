@@ -1,0 +1,131 @@
+// CARDS HOMEPAGE
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.cards_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.card_wrapper1 {
+    display: flex;
+    width: 634px;
+    height: 242px;
+    padding: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-shrink: 0;
+    margin-left: 28px;
+    background: linear-gradient(to bottom right, #1F2A2B, #274749);
+    border-radius: 16px;
+}
+.card_wrapper2 {
+    display: flex;
+    width: 634px;
+    height: 242px;
+    padding: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-shrink: 0;
+    background: linear-gradient(to bottom right, #1F2A2B, #274749);
+    border-radius: 16px;
+}
+
+.text_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    width: 288px;
+}
+
+.title_C1 {
+    font-family: $Mainfont_family;
+    font-size: $font_size_large;
+    color: white;
+    font-style: $Regular_font_weight;
+    font-weight: $Bold_font_weight;
+    line-height: normal;
+}
+
+.desc {
+    color: #91A2A4;
+    font-family: $Mainfont_family;
+    font-size: $font_size_regular;
+    font-style: $Regular_font_weight;
+    font-weight: $Regular_font_weight;
+    line-height: 24px;
+    width: 358px;
+}
+
+.btn_fcn_wrapper {
+    display: flex;
+    height: 56px;
+    padding: 16px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    background-color: $Primary-color;
+}
+.btn_esp_wrapper {
+    display: flex;
+    height: 56px;
+    width: 175px;
+    padding: 16px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    background-color: $Primary-color;
+}
+
+.btn_fcn {
+    background-color: $Primary-color;
+    border-style: none;
+    font-family: $Mainfont_family;
+    font-size: $font_size_regular;
+    font-weight: $SemiBold_font_weight;
+    text-decoration: none;
+    color: black;
+}
+.btn_esp {
+    background-color: $Primary-color;
+    border-style: none;
+    font-family: $Mainfont_family;
+    font-size: $font_size_regular;
+    font-weight: $SemiBold_font_weight;
+    text-decoration: none;
+    color: black;
+}
+
+.icon_crown {
+    width: 24px;
+    height: 24px;
+    background-image: url("/assets/Icons/crown.png");
+
+}
+
+.icon_fleche {
+    background-image: url("/assets/Icons/arrow-narrow-right.png");
+    width: 24px;
+    height: 24px;
+}
+
+.cone {
+    background-image: url("/assets/Icons/Cone.png");
+    width: 234px;
+    height: 242px;
+}
+.overlay {
+    background-image: url("/assets/Icons/overlay.png");
+    width: 234px;
+    height: 242px;
+}
